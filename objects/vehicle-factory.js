@@ -3,6 +3,6 @@
 function CarFactory() {
 }
 
-module.exports = CarFactory;
+module.exports = {Car, Motorcycle};
 
 
