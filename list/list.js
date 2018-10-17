@@ -27,6 +27,9 @@ class List {
     this.length--;
     return returnValue;
   }
+  forEach(callback)
+
+  2019 time stamp
 
 }
 
