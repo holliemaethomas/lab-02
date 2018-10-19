@@ -21,7 +21,6 @@
     "super": "^0.2.3"
   },
   "devDependencies": {
-    "eslint": "^5.7.0",
     "eslint-config-google": "^0.11.0"
   }
 }
