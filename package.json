@@ -19,9 +19,8 @@
     "url": "https://github.com/holliemaethomas/lab-02.git"
   },
   "dependencies": {
-    "eslint": "^5.6.1",
+    "eslint": "^5.7.0",
     "jest": "^23.6.0",
-    "lint": "^1.1.2",
-    "test": "^0.6.0"
+    "lint": "^1.1.2"
   }
 }
