@@ -38,20 +38,21 @@ const FlyingVehicle = () => ({
   },
 });
 
-function Airplane(name) {
-  let passengers = 100;
-  let firstClass = true;
-  let airplane = Object.assign({}, { name }, { passengers }, { firstClass }, FlyingVehicle());
-  return Object.freeze(airplane);
-}
 
-function Helicopter(name) {
+function Chinook(name) {
   let passengers = 8;
-  let firstClass = false;
-  let helicopter = Object.assign({}, { name }, { passengers }, { firstClass }, FlyingVehicle());
-  return Object.freeze(helicopter);
+  let gunner = true;
+  let chinook = Object.assign({}, { name }, { passengers }, { gunner }, FlyingVehicle());
+  return Object.freeze(chinook);
 }
 
-module.exports = { Car, Motorcycle, Airplane, Helicopter };
+function Sprayplane(name) {
+  let passengers = 2;
+  let napalm = true; 
+  let sprayplane = Object.assign({}, { name }, { passengers }, { napalm }, FlyingVehicle());
+  return Object.freeze(Sprayplane);
+
+}
 
 
+module.exports = { Car, Motorcycle, Chinook, Sprayplane };
