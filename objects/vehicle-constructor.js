@@ -21,7 +21,7 @@ const Car = function(name) {
 Car.prototype = new Vehicle();
 
 const Motorcycle = function(name) {
-  Vehicle.call(this,name,2);
+  Vehicle.call(this, name, 2);
 };
 
 Motorcycle.prototype = new Vehicle();
@@ -30,4 +30,10 @@ Motorcycle.prototype.wheelie = () => {
   return 'Wheee!';
 };
 
-module.exports = {Car, Motorcycle};
+const Chinook = function(name) {
+  Vehicle.call(this, name);
+};
+
+Chinook.prototype = new Vehicle();
+
+module.exports = {Car, Motorcycle, Chinook};
