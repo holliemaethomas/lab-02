@@ -12,7 +12,8 @@ describe('Seacreatures', () => {
       expect(fish.swims()).toBeTruthy();
     });
     });
-  
+  };
+
   describe('Lobster', () => {
 
     let lobster = new Seacreatures.Lobster();
@@ -26,4 +27,8 @@ describe('Seacreatures', () => {
     });
 
   });
+<<<<<<< HEAD
 });
+=======
+
+>>>>>>> c6a5e0e19cba8cadacb64705ede00b59327bad98

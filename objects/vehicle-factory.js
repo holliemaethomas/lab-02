@@ -39,14 +39,14 @@ const FlyingVehicle = () => ({
 });
 
 
-function Chinook(name) {
+function Helicopter(name) {
   let passengers = 8;
   let gunner = true;
   let chinook = Object.assign({}, { name }, { passengers }, { gunner }, FlyingVehicle());
   return Object.freeze(chinook);
 }
 
-function Sprayplane(name) {
+function Airplane(name) {
   let passengers = 2;
   let napalm = true; 
   let sprayplane = Object.assign({}, { name }, { passengers }, { napalm }, FlyingVehicle());
@@ -55,4 +55,4 @@ function Sprayplane(name) {
 }
 
 
-module.exports = { Car, Motorcycle, Chinook, Sprayplane };
+module.exports = { Car, Motorcycle, Airplane, Helicopter };
