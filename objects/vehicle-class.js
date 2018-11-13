@@ -34,7 +34,7 @@ class Motorcycle extends Vehicle {
 }
 
 class FlyingVehicle extends Vehicle {
-  constructor (name) {
+  constructor (name, passengers) {
     super();
     this.name = name;
     this.passengers = passengers;
@@ -42,7 +42,7 @@ class FlyingVehicle extends Vehicle {
 }
 
 class Chinook extends FlyingVehicle {
-  constructor (name) {
+  constructor (name, passengers) {
     super();
     this.name = name;
     this.passengers = passengers;
