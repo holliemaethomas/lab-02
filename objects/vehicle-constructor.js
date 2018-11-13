@@ -30,10 +30,10 @@ Motorcycle.prototype.wheelie = () => {
   return 'Wheee!';
 };
 
-const Chinook = function(name) {
+const Airplane = function(name) {
   Vehicle.call(this, name);
 };
 
 Chinook.prototype = new Vehicle();
 
-module.exports = {Car, Motorcycle, Chinook};
+module.exports = {Car, Motorcycle, Airplane};

@@ -42,15 +42,15 @@ const FlyingVehicle = () => ({
 function Helicopter(name) {
   let passengers = 8;
   let gunner = true;
-  let chinook = Object.assign({}, { name }, { passengers }, { gunner }, FlyingVehicle());
-  return Object.freeze(chinook);
+  let helicopter = Object.assign({}, { name }, { passengers }, { gunner }, FlyingVehicle());
+  return Object.freeze(helicopter);
 }
 
 function Airplane(name) {
   let passengers = 2;
   let napalm = true; 
-  let sprayplane = Object.assign({}, { name }, { passengers }, { napalm }, FlyingVehicle());
-  return Object.freeze(Sprayplane);
+  let airplane = Object.assign({}, { name }, { passengers }, { napalm }, FlyingVehicle());
+  return Object.freeze(airplane);
 
 }
 

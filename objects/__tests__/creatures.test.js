@@ -27,8 +27,3 @@ describe('Seacreatures', () => {
     });
 
   });
-<<<<<<< HEAD
-});
-=======
-
->>>>>>> c6a5e0e19cba8cadacb64705ede00b59327bad98
