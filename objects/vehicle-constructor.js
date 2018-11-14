@@ -1,6 +1,6 @@
 'use strict';
 
-const Vehicle = function(name, wheels) {
+const Vehicle = function (name, wheels) {
   this.name = name;
   this.wheels = wheels;
 };
@@ -14,13 +14,13 @@ Vehicle.prototype.stop = () => {
 };
 
 // Car Constructor
-const Car = function(name) {
+const Car = function (name) {
   Vehicle.call(this, name, 4);
 };
 
 Car.prototype = new Vehicle();
 
-const Motorcycle = function(name) {
+const Motorcycle = function (name) {
   Vehicle.call(this, name, 2);
 };
 
@@ -30,10 +30,10 @@ Motorcycle.prototype.wheelie = () => {
   return 'Wheee!';
 };
 
-const Airplane = function(name) {
+const Airplane = function (name) {
   Vehicle.call(this, name);
 };
 
-Chinook.prototype = new Vehicle();
+// Chinook.prototype = new Vehicle();
 
 module.exports = {Car, Motorcycle, Airplane};
